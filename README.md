@@ -18,6 +18,11 @@ We only opened new positions if the DSEX was above its 200-day moving average. S
 The results show that momentum strategy performs suboptimally for this dataset. It yields an annual return of 2.11% (DSEX CAGR is 8.4%) with a max drawdown of around 34% (High). The Sharpe ratio was less than 0.2, which indicates taking on high risk for insignificant returns. 
 A future iteration of this research may be performed with a bullish dataset. Other parameters and filters may be altered to yield better results. 
 
+# Packages Used
+
+[Backtrader](https://www.backtrader.com/)
+backtrader allows you to focus on writing reusable trading strategies, indicators and analyzers instead of having to spend time building infrastructure.
+
 # Notes 
 
 The report (which is *not* attached here) starts by introducing the role of capital markets in the economy, then expanding upon concepts like trading strategies and backtesting. In simple terms, backtesting a trading strategy is the process of testing a trading hypothesis/strategy on prior time periods – something we will be doing for our report. 
