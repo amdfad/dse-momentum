@@ -18,6 +18,16 @@ We only opened new positions if the DSEX was above its 200-day moving average. S
 The results show that momentum strategy performs suboptimally for this dataset. It yields an annual return of 2.11% (DSEX CAGR is 8.4%) with a max drawdown of around 34% (High). The Sharpe ratio was less than 0.2, which indicates taking on high risk for insignificant returns. 
 A future iteration of this research may be performed with a bullish dataset. Other parameters and filters may be altered to yield better results. 
 
+To summarize the findings:
+- As we can see the momentum strategy performs suboptimally for this dataset.  
+- It makes an average of 2.11% a year with a max drawdown of around 34%. 
+- The DSEX outperforms the algorithm over this time period (CAGR of 8.4%) 
+- The algorithm does so with more volatility (Max Drawdown of 34.98%, Sharpe of ~0.2).
+- Overall, this algorithm provides a good base for a momentum strategy and can likely be improved by altering time periods, parameters, applying filters, and adding leverage. 
+
+![Screenshot 2021-05-25 at 01 08 02](https://user-images.githubusercontent.com/2813022/119395732-c6029700-bcf5-11eb-8275-fc68e7b1562e.png)
+
+
 # Packages Used
 
 [Backtrader](https://www.backtrader.com/)
